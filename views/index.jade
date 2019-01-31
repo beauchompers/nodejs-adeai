@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1 Authenticated User: #{user}
+  h3 User Details:
+  p  Groups: #{groups}
+  p  Email: #{email}
+  p  Authenticated By: #{authenticatedby}
+  p  WebSEAL Server: #{websealhost}
+  br
+  a(href='/login') Return to Login Form

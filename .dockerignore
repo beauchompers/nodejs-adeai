@@ -1,0 +1,7 @@
+# dockerignore
+README.md
+Dockerfile
+*.DS_Store
+.gitignore
+.dockerignore
+.git

@@ -1,0 +1,17 @@
+extends layout
+
+block content
+  h3= title
+    br
+    form(id="login", method="post", action="/login", autocomplete="off")
+      label(id="error") #{error}
+      br
+      div.input
+      input(type="text", id="username", name="username", placeholder="username", autocomplete="off")
+      br
+      input(type="password", id="password", name="password", placeholder="password", autocomplete="off")
+      div.actions
+      br
+      input(type="submit", value="Login", id="login")
+    br
+    br
